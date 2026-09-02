@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="108" fill="#1a3d2e"/>
+  <g transform="translate(256,256)">
+    <!-- Stem -->
+    <path d="M0,140 L0,-20" stroke="#b89d64" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <!-- Left leaf -->
+    <path d="M-10,20 C-70,10 -100,-40 -100,-90 C-50,-80 -10,-50 -2,-10 Z" fill="#fdfcf9"/>
+    <!-- Right leaf -->
+    <path d="M10,20 C70,10 100,-40 100,-90 C50,-80 10,-50 2,-10 Z" fill="#fdfcf9"/>
+    <!-- Top sprout -->
+    <path d="M0,-20 C0,-80 30,-110 60,-120 C50,-80 30,-50 0,-30 Z" fill="#b89d64"/>
+  </g>
+</svg>
