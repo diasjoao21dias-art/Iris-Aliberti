@@ -23,9 +23,9 @@ export default function Contact() {
       <div className="pointer-events-none absolute -bottom-32 -right-24 w-96 h-96 rounded-full bg-[#b89d64]/10 blur-3xl" />
 
       <div className="relative max-w-7xl mx-auto px-5 sm:px-8">
-        <div className="text-center max-w-2xl mx-auto mb-12">
-          <p className="font-script text-2xl text-[#b89d64]">Vamos conversar</p>
-          <h2 className="mt-1 font-heading font-bold text-[#fdfcf9] text-3xl sm:text-4xl">
+        <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-12">
+          <p className="font-script text-xl sm:text-2xl text-[#b89d64]">Vamos conversar</p>
+          <h2 className="mt-1 font-heading font-bold text-[#fdfcf9] text-2xl sm:text-4xl">
             Solicite sua consultoria
           </h2>
           <p className="mt-4 text-[#fdfcf9]/70 leading-relaxed">
@@ -58,7 +58,7 @@ export default function Contact() {
           {/* Form */}
           <form
             onSubmit={handleSubmit}
-            className="bg-[#fdfcf9] rounded-3xl p-7 sm:p-9 shadow-2xl"
+            className="bg-[#fdfcf9] rounded-3xl p-5 sm:p-9 shadow-2xl"
           >
             <div className="space-y-5">
               <Field

@@ -14,7 +14,7 @@ export default function Footer() {
     <footer className="bg-[#143226] text-[#fdfcf9]">
       {/* Values band */}
       <div className="border-t border-[#b89d64]/15">
-        <div className="max-w-7xl mx-auto px-5 sm:px-8 py-12 grid md:grid-cols-3 gap-8 items-center text-center md:text-left">
+        <div className="max-w-7xl mx-auto px-5 sm:px-8 py-10 sm:py-12 grid md:grid-cols-3 gap-6 sm:gap-8 items-center text-center md:text-left">
           <p className="font-script text-2xl text-[#b89d64] leading-tight">
             Do campo nasce o futuro.
           </p>
@@ -30,7 +30,7 @@ export default function Footer() {
               </div>
             ))}
           </div>
-          <p className="font-script text-2xl text-[#b89d64] leading-tight md:text-right">
+          <p className="font-script text-xl sm:text-2xl text-[#b89d64] leading-tight md:text-right">
             Atendimento personalizado para cada realidade rural!
           </p>
         </div>

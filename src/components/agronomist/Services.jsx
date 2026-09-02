@@ -38,11 +38,11 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="servicos" className="py-20 sm:py-28 bg-[#f6f4ee]">
+    <section id="servicos" className="py-14 sm:py-28 bg-[#f6f4ee]">
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
-        <div className="text-center max-w-2xl mx-auto mb-14">
-          <p className="font-script text-2xl text-[#b89d64]">O que ofereço</p>
-          <h2 className="mt-1 font-heading font-bold text-[#1a3d2e] text-3xl sm:text-4xl">
+        <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+          <p className="font-script text-xl sm:text-2xl text-[#b89d64]">O que ofereço</p>
+          <h2 className="mt-1 font-heading font-bold text-[#1a3d2e] text-2xl sm:text-4xl">
             Soluções técnicas para cada etapa do campo
           </h2>
           <div className="mt-5 flex items-center justify-center gap-3">
