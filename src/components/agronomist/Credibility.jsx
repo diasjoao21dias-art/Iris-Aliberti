@@ -27,13 +27,13 @@ const values = [
 
 export default function Credibility() {
   return (
-    <section id="sobre" className="py-20 sm:py-28 bg-[#fdfcf9]">
+    <section id="sobre" className="py-14 sm:py-28 bg-[#fdfcf9]">
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
           {/* Left: about */}
           <div>
-            <p className="font-script text-2xl text-[#b89d64]">Sobre a profissional</p>
-            <h2 className="mt-1 font-heading font-bold text-[#1a3d2e] text-3xl sm:text-4xl leading-tight">
+            <p className="font-script text-xl sm:text-2xl text-[#b89d64]">Sobre a profissional</p>
+            <h2 className="mt-1 font-heading font-bold text-[#1a3d2e] text-2xl sm:text-4xl leading-tight">
               Engenharia agronômica com técnica, ética e visão de futuro
             </h2>
             <div className="mt-5 flex items-center gap-3">
